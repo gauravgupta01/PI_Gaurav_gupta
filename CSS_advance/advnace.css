@@ -59,6 +59,7 @@ button{
     color: #f7f7f0;
     background: none;
     border-color: #f7f7f0;
+    margin-bottom:15px;
 }
 .btn1{
     margin: 60px;
@@ -129,7 +130,7 @@ button:hover{
 .fig5{
     height: 50px;
     width: 50px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 #li2{
     padding: 40px;
@@ -181,7 +182,6 @@ button:hover{
 }
 .sec5{
     background-image: url("img-4.jpg");
-    height: 40vh;
 }
 .uls5{
     display: flex;
@@ -242,7 +242,6 @@ button:hover{
 }
 .sec7{
     background-image: url("img-3.jpg");
-    height:80%;
     align-items: flex-start;
     padding: 60px;
 }
