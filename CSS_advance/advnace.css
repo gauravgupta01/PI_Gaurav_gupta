@@ -326,9 +326,11 @@ button:hover{
 }
 .btns8{
     width: 50%;
-    margin: 20px 100px;
+    margin: 20px 65px;
     color: rgb(58,55,108);
     border-color: rgb(58,55,108);
+    padding:10px;
+    font-size:medium;
 }
 .f1{
     display: flex;
