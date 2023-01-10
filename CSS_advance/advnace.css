@@ -11,45 +11,52 @@ header{
 nav{
     display: flex;
     width: 100%;
-    padding-left: 80px;
 }
 .fig1{
-    width: 30%;
+    margin-left: 80px;
+}
+.mail{
+    width:4%;
+    height:auto;
+}
+.s4{
+    font-size: 50px;
+    font-weight: 400;
 }
 .list{
     display: flex;
     align-items: center;
     list-style: none;
-    padding-left: 100px;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-left: 100px;
 }
-#li1{
-    margin-left: 50px;
-}
-.fig2{
-    padding-left: 50px;
-    padding-top: 15px;
-}
+
 .flex{
     display:flex;
-    width:100%;
-    background-color: rgba(58, 55, 108, 0.9);
-    position: relative;
+    background-color: rgba(58, 55, 108, 1);
     flex-direction: column;
     align-items: center;
-    background-size: 100% 100%;
+    background-size:cover;
     background-repeat: no-repeat;
-    position: relative;
     background-blend-mode: multiply;
     color: #f7f7f0;
-    height:100%;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    justify-content: center;
 }
 .sec1{
     background-image: url("img-1.jpg");
+    padding-top: 120px;
+}
+.s{
+    width: 60%;
+    text-align: center;
 }
 .s1{
     font-size: 60px;
     font-weight: 400;
-    padding-top: 40px;
     padding-bottom: 10px;
 }
 button{
@@ -59,16 +66,15 @@ button{
     color: #f7f7f0;
     background: none;
     border-color: #f7f7f0;
-    margin-bottom:15px;
 }
 .btn1{
     margin: 60px;
     margin-left: 70px;
 }
 #darrow{
-    margin-top: 70px;
-    height: 25px;
-    width: 40px;
+    margin-top: auto;
+    width: 2%;
+    margin-bottom: 20px;
 }
 
 button:hover{
@@ -82,20 +88,17 @@ button:hover{
     background-color: rgba(0, 0, 0, 0.1);
     color: rgb(58, 55, 108);
     padding-bottom: 50px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
 .sec2{
-    justify-content: space-around;
-    align-items: center;
+     justify-content: space-around;
 }
 .divs2{
     display: flex;
-    justify-content:start;
     flex-direction: column;
-    width:30%;
-    margin-top: 70px;
-    margin-left: 30px;
+    width:40%;
+    padding-top: 50px;
+    justify-content: space-evenly;
 }
 .s2{
     font-size: 50px;
@@ -107,13 +110,16 @@ button:hover{
     margin-top: 20px;
 }
 .fig3{
-    height: 25px;
-    width: 25px;
+    height:auto;
+    width: 5%;
+}
+.divf4{
+    width: 40%;
+    padding-top: 50px;
 }
 .fig4{
-    margin-top: 50px;
-    height:50vh;
-    width:auto;
+    height:auto;
+    width:100%;
 }
 .sec3{
     background-image: url("img-2.jpg");
@@ -123,30 +129,37 @@ button:hover{
     justify-content: space-around;
     list-style: none;
     align-items: center;
-    align-content: center;
-    margin-bottom:50px ;
+    width: 100%;
+    padding:50px 0px ;
 }
-
+.li2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:25%;
+    gap: 20px;
+}
+.f5{
+      width: 20%;
+      background-color:rgba(58, 55, 108, 1); 
+      border-radius: 50%;
+    }
 .fig5{
-    height: 50px;
-    width: 50px;
-    margin-left: 80px;
-}
-#li2{
-    padding: 40px;
-    padding-left: 130px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
 }
 .sec4{
     flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 20px ;
 }
 .s3{
     font-size: 50px;
     font-weight: 400;
-    margin:20px 60px;
-}
-.p1{
-    margin-top: 20px;
-    margin-left: 60px;
 }
 .lists4{
     display: flex;
@@ -155,46 +168,113 @@ button:hover{
     align-items: center;
     align-content: center;
     width: 40%;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .figure{
     display: flex;
     padding-top: 30px;
-    width: 90%;
-    margin-left: 30px;
+    width: 100%;
+    gap: 15px;
 }
 .col{
-    width: 30%;
-    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+.c1r1{
+    height:calc( 66% + 15px);
+}
+.c1r2{
+    height:33%;
 }
 .fig6{
     width:100%;
-    height:44.6vh;
-    margin-bottom:15px;
+    height:100%;
+    object-fit: cover;
  }
  .fig7{
     width:100%;
-    height: 21vh;
-    margin-bottom: 15px;
+    height: 100%;
+    object-fit: cover;
 }
-.fig6:hover{
-    background-color: #222342;
+.c1r1{
+    position: relative;
+
 }
+.overlay {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    height: 90%;
+    top:5%;
+    left:5%;
+    bottom: 5%;
+    right:5%;
+    background: rgba(58, 55, 108, 0.5);
+    content: "";
+    opacity: 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .c1r1:hover .overlay {
+    opacity: 0.9;
+  }
+  .c1r2{
+    position: relative;
+
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    height: 90%;
+    top:5%;
+    left:5%;
+    bottom: 5%;
+    right:5%;
+    background: rgba(58, 55, 108, 1);
+    content: "";
+    opacity: 0;
+   
+  }
+  .c1r2:hover .overlay {
+    opacity: 0.9;
+  }
 .sec5{
     background-image: url("img-4.jpg");
+    min-height: 40vh;
+    padding-bottom: 20px;
 }
 .uls5{
     display: flex;
     justify-content: space-around;
     list-style: none;
     width: 100%;
-    margin-top: 70px;
 }
+.li3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.f6{
+        width: 20%;
+        background-color:rgba(58, 55, 108, 1); 
+        border-radius: 50%;
+      }
+
 .fig8{
-    width: 70px;
-    height: 70px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
 }
 .ps5{
     margin-top: 10px;
@@ -209,20 +289,25 @@ button:hover{
 }
 .sec6{
     flex-direction: column;
+    align-items: center;
 }
 .uls6{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
     align-items: center;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
+}
+.s3{
+    padding:50px 0px;
 }
 .lis6{
     background: white;
     box-shadow: 0 3px 15px rgb(0 0 0 / 30%);
     padding: 5px;
-    border: 1px solid rgba(0,0,0,0.5);
+    border: 1px solid rgba(0,0,0,0.2);
     width: 20vw;
 }
 .ps6{
@@ -301,36 +386,36 @@ button:hover{
     padding: 50px;
     flex-direction: column;
 }
-.ps8{
-    margin: 0px 60px;
-}
+
 .d1s8{
     display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
 }
 .ds8{
     display: flex;
     box-shadow: 0 3px 15px rgb(0 0 0 / 30%);
-    padding: 5px;
     border: 1px  rgba(0,0,0,0.5);
     width: 30%;
-    margin: 20px 60px;
     flex-direction: column;
 }
+.s1{padding: 0px 5px;}
 .fig12{
     width: 100%;
-    height: 200px;
+    height: auto;
+}
+.p{
+    padding:30px;
 }
 .p1s8{
-    text-align: center;
-    margin:20px 0px;
+    padding-bottom: 10px;
 }
 .btns8{
     width: 50%;
-    margin: 20px 65px;
+    height: 50px;
+    margin: 20px 100px;
     color: rgb(58,55,108);
     border-color: rgb(58,55,108);
-    padding:10px;
-    font-size:medium;
 }
 .f1{
     display: flex;
@@ -353,8 +438,7 @@ button:hover{
 }
 .fi{
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+
 }
 #in{
     height: 50px;
@@ -364,8 +448,11 @@ button:hover{
     border-top-left-radius: 25px;
 }
 #nbtn{
+    border-radius: 0px;
+    padding: 0px;
     border-bottom-right-radius:25px ;
     border-top-right-radius: 25px;
+    width: 44px;
 }
 .figf{
     width: 25px;
