@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+figure{
+    width: 25%;
+
+}
+.fig1{
+      height: auto;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.header-nav{
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    margin: auto 0;
+    justify-content: space-between;
+}
+.header-nav li a {
+    text-decoration: none;
+    color: #000;
+    transition: border-bottom 0.3s ease;
+    border-bottom: 2px solid #fff;
+    font-weight: 500;
+  }
+.sec1{
+    width: 100%;
+    background-color: #b74746;
+    min-height: 800px;
+    background-image: url("slash.png");
+    background-repeat:no-repeat;
+    font-size: 20px;
+    height: auto;
+    position: relative;
+}
+.herosection{
+      width: 70%;
+      font-size: 30px;
+      display: inline-block;
+      position: absolute;
+      transform: translate(20% ,45%);
+      color: #fff;
+      height: auto;
+}
+h1{
+    font-weight: 900;
+}
+.banner{
+    float: right;
+    width:65%;
+    min-height:800px ;
+}
+.fig2{
+    width: 100%;
+    min-height: 800px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+span{
+    display: block;
+    margin: auto 0;
+}
+.btn1{
+    border: 1px solid white;
+    color:#fff;
+    background:none;
+    padding: 10px ;
+    display: block;
+}
+.rect{
+    margin-top: 50px;
+    height: 5px;
+    width: 4%;
+    border: 2px solid white;
+    margin-right:10px ;
+    display: inline-block;
+}
+.rect:hover{
+    background-color: #fff;
+}
+footer{
+    width: 70%;
+    position: absolute;
+    transform:translate(18%,-360%) ;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+}
+h5 {
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+.size{
+    font-size: 40px;
+    color: white;
+}
+.footer-nav{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: auto 0;
+    justify-content: space-between;
+}
+.footer-nav li a {
+    text-decoration: none;
+    color: #000;
+    transition: border-bottom 0.3s ease;
+    border-bottom: 2px solid #fff;
+    font-weight: 500;
+  }
