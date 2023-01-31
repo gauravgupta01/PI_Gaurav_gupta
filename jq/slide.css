@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.panel{
+    background-color: #e5eecc;
+}
+.slide{
+    background-color: lightblue;
+    display: none;
+    padding: 40px;
+}
